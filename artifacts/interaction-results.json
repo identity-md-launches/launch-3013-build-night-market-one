@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-11-05T20:25:12.241Z",
+  "passed": 28,
+  "failed": 0,
+  "results": [
+    {
+      "name": "fresh ACTIVE uses the exact rpm conversion, rate and 40 rpm cap",
+      "passed": true
+    },
+    {
+      "name": "freshness, missing fields, failed fetch and expiry all hold a low rate",
+      "passed": true
+    },
+    {
+      "name": "idle copy uses the open stall name and round precedence falls back correctly",
+      "passed": true
+    },
+    {
+      "name": "open stall fills at 1×, closed at 0.22×, and only the open one scores/logs",
+      "passed": true
+    },
+    {
+      "name": "idle, unread and stale completions give +1 without spoiling stock",
+      "passed": true
+    },
+    {
+      "name": "switching is immediate, preserves fill, and activity is newest first with 8 entries",
+      "passed": true
+    },
+    {
+      "name": "book serialization saves only the requested data and rejects damaged values",
+      "passed": true
+    },
+    {
+      "name": "round changes log once; practice is a sine wave around 18 with no round",
+      "passed": true
+    },
+    {
+      "name": "personal_sign message is the exact required UTF-8 text encoded as hex",
+      "passed": true
+    },
+    {
+      "name": "browser: default guest market, exact live label, three controls and cache:no-store",
+      "passed": true
+    },
+    {
+      "name": "browser: running pieces award +3, float feedback, immediate switching, closed craft",
+      "passed": true
+    },
+    {
+      "name": "browser: practice toggle stays labeled and never changes the saved live round",
+      "passed": true
+    },
+    {
+      "name": "browser: idle completes at +1, keeps closed stock, and uses the open stall in its sentence",
+      "passed": true
+    },
+    {
+      "name": "browser: stale, missing measurement, HTTP failure and malformed JSON remain playable",
+      "passed": true
+    },
+    {
+      "name": "browser: freshness expires between polls, and a later good response recovers",
+      "passed": true
+    },
+    {
+      "name": "browser: loading and a timed-out wheel request keep stall selection and practice available",
+      "passed": true
+    },
+    {
+      "name": "browser: a failed poll invalidates a formerly fresh reading and recovers on the next good poll",
+      "passed": true
+    },
+    {
+      "name": "browser: missing wallet logs the exact guest message and crafting continues",
+      "passed": true
+    },
+    {
+      "name": "browser: wallet success requests accounts then the exact personal_sign, saving only the address",
+      "passed": true
+    },
+    {
+      "name": "browser: pending and rejected wallet signature never block the market",
+      "passed": true
+    },
+    {
+      "name": "browser: all book fields survive reload, while every in-progress fill resets",
+      "passed": true
+    },
+    {
+      "name": "browser: blocked localStorage shows an honest save warning and remains playable",
+      "passed": true
+    },
+    {
+      "name": "browser: keyboard skip link, focus ring and Space activate a stall",
+      "passed": true
+    },
+    {
+      "name": "browser: reduced motion stops all decorative animation; pause/resume works",
+      "passed": true
+    },
+    {
+      "name": "browser: responsive export has no overflow at 320, 390, 576, 768 and 1440; all phone actions are on the first screen",
+      "passed": true
+    },
+    {
+      "name": "browser: automated WCAG A/AA accessibility scan reports no violations",
+      "passed": true
+    },
+    {
+      "name": "browser: 200% text enlargement, long saved counts, RTL and forced colors preserve access",
+      "passed": true
+    },
+    {
+      "name": "browser: all local assets work at a gateway-style /preview/ subpath, no script errors",
+      "passed": true
+    }
+  ]
+}

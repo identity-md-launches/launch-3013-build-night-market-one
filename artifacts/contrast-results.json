@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Primary text on stall",
+    "fg": "rgb(231, 244, 242)",
+    "bg": "rgb(16, 28, 30)",
+    "ratio": 15.43
+  },
+  {
+    "name": "Muted count on stall",
+    "fg": "rgb(142, 170, 168)",
+    "bg": "rgb(16, 28, 30)",
+    "ratio": 7.01
+  },
+  {
+    "name": "Primary button text",
+    "fg": "rgb(4, 34, 28)",
+    "bg": "rgb(47, 227, 200)",
+    "ratio": 10.35
+  },
+  {
+    "name": "Secondary button text",
+    "fg": "rgb(231, 244, 242)",
+    "bg": "rgb(20, 36, 38)",
+    "ratio": 14.21
+  },
+  {
+    "name": "Secondary control boundary",
+    "fg": "rgb(82, 123, 118)",
+    "bg": "rgb(20, 36, 38)",
+    "ratio": 3.4
+  },
+  {
+    "name": "Closed meter fill against track",
+    "fg": "rgb(26, 168, 152)",
+    "bg": "rgb(25, 51, 53)",
+    "ratio": 4.53
+  },
+  {
+    "name": "Focus perimeter against its adjacent stall surface",
+    "fg": "rgb(231, 244, 242)",
+    "bg": "rgb(16, 28, 30)",
+    "ratio": 15.43
+  }
+]

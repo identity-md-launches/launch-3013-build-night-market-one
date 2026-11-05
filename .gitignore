@@ -1,0 +1,19 @@
+# Delivery path budget: artifacts/ <= 2 MiB; dist/ <= 2 MiB;
+# remaining source/public/docs <= 2 MiB. Hard submission limit: 8 MiB.
+# Include the required export and evidence despite surrounding workspace rules.
+!/artifacts/
+!/artifacts/**
+!/dist/
+!/dist/**
+
+# Generated path budget: 0 submitted bytes at every nesting level.
+**/node_modules/
+/.pnp.*
+/test/scratch/
+/.cache/
+**/.yarn/
+**/.npm/
+**/.vite/
+**/.vite-temp/
+**/*.tsbuildinfo
+
